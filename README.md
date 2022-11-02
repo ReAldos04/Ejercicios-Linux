@@ -1,70 +1,38 @@
 Ejercicios comandos Linux 
 1. Listar todos los archivos del directorio bin. 
-cd /
-cd bin
-ls -l
 
 Listar todos los archivos del directorio tmp.
-cd /
-cd tmp
-ls -l
 
 2. Listar todos los archivos del directorio etc que empiecen port en orden 
 inverso. 
-ls -r port*
 
 3. Listar todos los archivos del directorio dev que empiecen por tty y tengan 5 caracteres. 
-ls -l tty??
 
 4. Listar todos los archivos del directorio dev que empiecen por tty y acaben en 1,2,3 ó 4. 
-ls tty*[1-4]
 
 5. Listar todos los archivos del directorio dev que empiecen port y acaben en C1. 
-ls tty*C1
 
 6. Listar todos los archivos, incluidos los ocultos, del directorio raíz. 
-ls -a
 
 7. Listar todos los archivos del directorio etc que no empiecen por t. 
-cd etc/
-ls ¡t
 
 8. Listar todos los archivos del directorio usr y sus subdirectorios. 
-cd usr
-ls -R
 
 9. Cambiarse al directorio tmp, crear directorio PRUEBA. 
-cd /tmp
-mkdir PRUEBA
 
 10. Verificar que el directorio actual ha cambiado. 
-pwd
 
 11. Mostrar el día y la hora actual. 
-date
 
 12. Con un solo comando posicionarse en el directorio $HOME. 
-cd /home
 
 13. Verificar que se está en él. 
-pwd
 
 14. Listar todos los ficheros del directorio HOME mostrando su número de inodo. 
-ls -i
 
 15. Borrar todos los archivos y directorios visibles de vuestro directorio PRUEBA. 
-rm -rf PRUEBA/
 
 16. Crear los directorios dir1, dir2 y dir3 en el directorio PRUEBA. Dentro de dir1 crear el directorio dir11. Dentro del directorio dir3 crear el directorio dir31. Dentro del directorio dir31, crear los directorios dir311 y dir312. 
-cd PRUEBA
-mkdir dir1 && mkdir dir2 && mkdir dir3
-cd dir1
-mkdir dir11
-cd ..
-cd dir3
-mkdir dir31
-cd dir31
-mkdir dir311 && mkdir dir312
 
 17. Copiar el archivo /etc/motd a un archivo llamado mensaje de vuestro 
 directorio PRUEBA. 
