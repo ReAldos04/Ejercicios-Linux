@@ -1,1 +1,49 @@
+cd /
+cd bin
+ls -l
 
+cd /
+cd tmp
+ls -l
+
+inverso. 
+ls -r port*
+ 
+ls -l tty??
+
+ls tty*[1-4]
+
+ls tty*C1
+ 
+ls -a
+
+cd etc/
+ls ¡t
+ 
+cd usr
+ls -R
+
+cd /tmp
+mkdir PRUEBA
+
+pwd
+ 
+date
+
+cd /home
+ 
+pwd
+ 
+ls -i
+15. Borrar todos los archivos y directorios visibles de vuestro directorio PRUEBA. 
+rm -rf PRUEBA/
+ 
+cd PRUEBA
+mkdir dir1 && mkdir dir2 && mkdir dir3
+cd dir1
+mkdir dir11
+cd ..
+cd dir3
+mkdir dir31
+cd dir31
+mkdir dir311 && mkdir dir312
