@@ -32,9 +32,8 @@ mkdir PRUEBA
 13. cd /home
  
 14. pwd
- 
+
 15. ls -i
-15. Borrar todos los archivos y directorios visibles de vuestro directorio PRUEBA. 
 rm -rf PRUEBA/
  
 16. cd PRUEBA
