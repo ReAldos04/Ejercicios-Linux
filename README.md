@@ -1,7 +1,6 @@
-Ejercicios comandos Linux 
 1. Listar todos los archivos del directorio bin. 
 
-Listar todos los archivos del directorio tmp.
+   Listar todos los archivos del directorio tmp.
 
 2. Listar todos los archivos del directorio etc que empiecen port en orden 
 inverso. 
@@ -32,7 +31,7 @@ inverso.
 
 15. Borrar todos los archivos y directorios visibles de vuestro directorio PRUEBA. 
 
-16. Crear los directorios dir1, dir2 y dir3 en el directorio PRUEBA. Dentro de dir1 crear el directorio dir11. Dentro del directorio dir3 crear el directorio dir31. Dentro del directorio dir31, crear los directorios dir311 y dir312. 
+16. Crear los directorios dir1, dir2 y dir3 en el directorio PRUEBA. Dentro de dir1 crear el directorio dir11. Dentro del directorio dir3 crear el directorio dir31.       Dentro del directorio dir31, crear los directorios dir311 y dir312. 
 
 17. Copiar el archivo /etc/motd a un archivo llamado mensaje de vuestro 
 directorio PRUEBA. 
