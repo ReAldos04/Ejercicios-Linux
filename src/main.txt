@@ -1,44 +1,43 @@
-cd /
+1. cd /
 cd bin
 ls -l
 
-cd /
+2. cd /
 cd tmp
 ls -l
 
-inverso. 
-ls -r port*
+3. ls -r port*
  
-ls -l tty??
+4. ls -l tty??
 
-ls tty*[1-4]
+5. ls tty*[1-4]
 
-ls tty*C1
+6. ls tty*C1
  
-ls -a
+7. ls -a
 
-cd etc/
+8. cd etc/
 ls ¡t
  
-cd usr
+9. cd usr
 ls -R
 
-cd /tmp
+10. cd /tmp
 mkdir PRUEBA
 
-pwd
+11. pwd
  
-date
+12. date
 
-cd /home
+13. cd /home
  
-pwd
+14. pwd
  
-ls -i
+15. ls -i
 15. Borrar todos los archivos y directorios visibles de vuestro directorio PRUEBA. 
 rm -rf PRUEBA/
  
-cd PRUEBA
+16. cd PRUEBA
 mkdir dir1 && mkdir dir2 && mkdir dir3
 cd dir1
 mkdir dir11
